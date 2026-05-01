@@ -29,7 +29,16 @@ This project analyzes gene expression data to classify breast cancer subtypes. I
 ## Results
 - Logistic Regression performed best
 - CNN slightly better than ANN in recall
-- Other models overfit due to high dimensionality
+-After removing the validation set, the
+Weighted Logistic Regression
+improved significantly to 98%.
+XgBoost aslo improved but a little
+points off Log Regression.​
+-SVM (Support Vector Machine) did
+incredibly well, but Log
+Regression outperformed it after cross
+validation and hyper parameter
+tunning. 
 
 ## Key Insights
 - Sampling order affects performance
