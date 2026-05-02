@@ -25,6 +25,14 @@ This project analyzes gene expression data to classify breast cancer subtypes. I
 - Random Forest
 - XGBoost
 - ANN / CNN
+## Exploratory data analysis
+<img width="309" height="299" alt="image" src="https://github.com/user-attachments/assets/cc5552ba-3e8f-422d-b38b-4c1035ebc740" />
+<img width="488" height="388" alt="image" src="https://github.com/user-attachments/assets/caa3cb4d-2b6a-46b0-b099-a4ddec066388" />
+Key observations:
+- Dataset is highly imbalanced  
+- High dimensionality required PCA  
+- Gene features show low correlation, increasing modeling complexity  
+
 
 ## Results
 - Logistic Regression performed best
