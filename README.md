@@ -52,7 +52,15 @@ tunning.
 - Sampling order affects performance
 - Class imbalance skews accuracy
 - Stratified sampling improves fairness
+### Model Comparison
 
+| Model                | Accuracy | Recall | F1 Score |
+|---------------------|----------|--------|----------|
+| Logistic Regression | Best     | High   | Strong   |
+| Random Forest       | Moderate | Lower  | Moderate |
+| XGBoost             | Moderate | Lower  | Moderate |
+| ANN                 | Good     | Medium | Good     |
+| CNN                 | Slightly better than ANN | High | Strong |
 ## Conclusion
 Logistic Regression proved to be the most stable model for this dataset.
 
