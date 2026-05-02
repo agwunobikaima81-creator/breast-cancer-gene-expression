@@ -72,12 +72,18 @@ This interpretability is critical in a medical context, where understanding why 
 Logistic Regression proved to be the most stable model for this dataset.
 ## How to Run
 
-1. Clone the repository  
-2. Install dependencies:
+1. Clone the repository:
+   git clone https://github.com/agwunobikaima81-creator/breast-cancer-gene-expression.git  
+
+2. Navigate into the project folder:
+   cd breast-cancer-gene-expression  
+
+3. Install dependencies:
    pip install -r requirements.txt  
 
-3. Open the notebook in /notebooks  
-4. Run all cells to:
+4. Open the notebook in the /notebooks folder  
+
+5. Run all cells to:
    - preprocess the data  
    - train models  
    - evaluate performance  
