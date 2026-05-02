@@ -1,0 +1,5 @@
+## Models
+
+This folder is reserved for storing trained machine learning models.
+
+Due to file size limitations and reproducibility considerations, trained models are not included in this repository. Models can be recreated by running the notebook in the /notebooks folder.
